@@ -2,24 +2,23 @@
 
 ## Descripción:
 
-La página web tratará sobre un grupo de música y el diseño de la interfaz será acorde a la temática de dicho grupo, dentro de la web ver información acerca del grupo:
+Página web de conciertos y eventos musicales en sevilla.
 
-- Noticias relacionadas.
-- Biografía del grupo y sus componentes.
-- Discografía, maquetas, etc.
-- Formas de contacto.
-- Conciertos próximos y ya realizados.
-- Tienda de merchandising del grupo.
+- Conciertos.
+- Eventos.
+- Gestión de entradas.
 
 ## Análisis del diseño web:
 
 ### Introducción:
 
-**Nombre: **Mägo de Oz
+**Nombre: **Wegow
 
-**URL de la página:** http://www.magodeoz.com/
+**URL de la página:** https://www.wegow.com/
 
-**Logo principal:** Logo del grupo
+**Logo principal:** 
+
+![](imágenes/wegow_logo.png)
 
 **Tema principal de la página:** Página del grupo
 
