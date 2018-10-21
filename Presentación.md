@@ -71,6 +71,7 @@ Los casos más adversos serían las fechas cercanas a conciertos, ya que mucha g
 - Principio de simplicidad. (Página principal)
 
 
+
 ### Principios de usabilidad principales:
 
 - Control y libertad del usuario. (Al seleccionar conciertos)
