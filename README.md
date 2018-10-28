@@ -40,7 +40,7 @@ Purrhub
 
 Página web que muestra los conciertos y eventos musicales que se celebrarán en sevilla en las próximas fechas, permite registrarse para buscar conciertos personalizados con facilidad y añadirlos a favoritos.
 
-
+Se realizará la página web porque considero que es una aplicación útil, a diferencia de otras páginas, está será bastante simple de manejar y permitirá a los usuarios asignar etiquetas a los conciertos que describan cómo son.
 
 ### Modelado de usuarios:
 
@@ -108,18 +108,37 @@ En principio no.
 
 ### Principios de diseño:
 
-- Principio de continuidad. (Conciertos en la página inicial)
-- Principio de la proximidad. (Información de los conciertos)
-- Principio de simplicidad. (Página principal)
+- Principio de continuidad:
+
+  Los conciertos se mostrarán de forma ordenada como si de una cuadrícula se tratase.
+
+- Principio de la proximidad:
+
+  Toda la información acerca de los conciertos se encontrará modularizada en un mismo cuadrado.
+
+- Principio de simplicidad:
+
+  Se pretende que la página donde se muestran los conciertos sea simple y propicie los datos necesarios de forma concisa, sin más distracciones para el usuario.
 
 
 
 ### Principios de usabilidad principales:
 
-- Control y libertad del usuario. (Al seleccionar conciertos)
-- Consistencia y estándares. (Interfaz de la página)
-- Prevención de errores. (Etiquetas en la búsqueda)
-- Reconocimiento antes que recuerdo. (Iconos)
+- Control y libertad del usuario:
+
+  Permitir al usuario volver al inicio donde están todos los conciertos con un simple click y fácilmente, sin que el usuario pueda perderse por la página buscando más información acerca de un concierto.
+
+- Consistencia y estándares:
+
+  El inicio de la página estará muy estandarizado, siguiendo la disposición común de este tipo de páginas para que el usuario sepa moverse por ella nada más entrar.
+
+- Prevención de errores:
+
+  Sugerir etiquetas o datos concretos que el usuario puede introducir en la búsqueda avanzada.
+
+- Reconocimiento antes que recuerdo:
+
+  Utilizar muchos iconos dentro de la descripción de un concierto para que el usuario sepa que es cada cosa de forma fácil.
 
 
 
@@ -143,7 +162,13 @@ Los iconos se usarán principalmente para favorecer el principio de usabilidad '
 
 ### Imágenes:
 
-Para el diseño de la web se utilizarán imágenes de conciertos, para cada concierto se utilizarán imágenes del grupo, que suelen tener en sus propias páginas web.
+Para el diseño de la web se utilizarán imágenes de conciertos, para cada concierto se utilizarán imágenes del grupo, que suelen tener en sus propias páginas web. Para las imágenes de los grupos se utilizarán presumiblemente .jpg para aligerar la carga de la web, pero también se utilizarán algunas imágenes .png con motivo decorativo para la página.
+
+
+
+### Maquetación:
+
+Se utilizarán divs y flexbox para la maquetación de la página y CSS3 y bootstrap para hacerla visualmente atractiva.
 
 
 
@@ -157,7 +182,24 @@ La fuente que utilizará la página será 'Museo Sans' dado que es una letra sim
 
 ### Webmaster-guidelines:
 
-- Página responive.
-- Utilizar el atributo "alt" en las imágenes.
-- Evitar contenido pirateado en la página web.
-- Optimizar la carga de la página utilizando herramientas como PageSpeed Insights.
+- Página responsive:
+
+  Se hará la página responsive para que pueda ser visualizada en distintos dispositivos, recurriendo a características de CSS3.
+
+- Utilizar el atributo "alt" en las imágenes:
+
+  Se añadirá un texto alternativo a las imágenes para hacer la página más accesible a personas discapacitadas.
+
+- Evitar contenido pirateado en la página web:
+
+  Cercionarse de utilizar sólamente imágenes de grupos libre de licencia o derechos de autor.
+
+- Optimizar la carga de la página utilizando herramientas como PageSpeed Insights:
+
+  Utilizar este tipo de herramientas para ver cuánto tarda en cargar nuestra página y como podemos mejorar la carga.
+
+
+
+### Conclusiones:
+
+La página pretende ser sencilla y fácil de usar a la vez que útil y atractiva, recurriendo a un buen diseño de la web que agrade a los usuarios.
