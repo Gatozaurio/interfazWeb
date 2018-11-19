@@ -1,5 +1,4 @@
 body{
-    display: grid;
     grid-template-columns: repeat(12, 1fr);
 }
 
@@ -10,6 +9,7 @@ header{
 #header{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
+    height: 1%;
     border: 5px solid black;
 }
 
@@ -18,15 +18,23 @@ header{
     grid-column: 1/5;    
     background-color: yellow;
 }
-#menu{
-    display: flex;
-    justify-content: flex-end;
-    grid-column: 5/13;
-    background-color: aqua;
-}
-#menuOptions{
+/* #menu{
     display: flex;
     justify-content: space-around;
+    grid-column: 9/13;
     background-color: aqua;
+} */
+#menuOptions{
+    display: flex;
+    flex-direction: row;
+    grid-column: 10/13;
+    justify-content: space-around;    
+    background-color: green;
+    font-family: 'Roboto', sans-serif;
+    font-size: 150%;
+    vertical-align: middle;
 }
 
+nav{
+    grid-column:5/13;
+}
